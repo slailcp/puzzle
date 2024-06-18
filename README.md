@@ -1,6 +1,6 @@
-@[TOC](这里写目录标题)
 
-# vuePuzzle
+@[TOC](vuePuzzle文档)
+
 # 文档地址
 
 [vuePuzzle-文档地址](https://blog.csdn.net/sllailcp/article/details/139597472?spm=1001.2014.3001.5502)
@@ -20,7 +20,7 @@ npm i --save vuePuzzle
 
 # 引入
 import {Puzzle1} from 'vuePuzzle'
-
+import 'vuePuzzle/vuePuzzle.css'
 # 使用
 
 ## 单个拼图
@@ -28,6 +28,10 @@ import {Puzzle1} from 'vuePuzzle'
 ```js
 <Puzzle1 />
 ```
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/2aee8a9829ea4baeb735cc480ac80ea8.png)
+
+
+
 
 ## 设置大小（默认100px）
 
@@ -45,6 +49,10 @@ import {Puzzle1} from 'vuePuzzle'
 /**背景色可以设置透明度 */
 <Puzzle1 bg-color="rgba(0,0,0,0.5)" border-color="#FF0000" borderWidth="10" />
 ```
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/c86425a76a254861b89c4e63031edfb8.png)
+
+
+
 
 ## 设置阴影,阴影程度，阴影扩散大小,
 
@@ -52,6 +60,7 @@ import {Puzzle1} from 'vuePuzzle'
 // 注意：需要设置index或者mark唯一标识
 <Puzzle1 mark="10" shadowColor="#FF0000" shadowRatio="0.4" shadowSpread="100" />
 ```
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/6e062539a74748a0945c35c7529c1ec4.png)
 
 ## 设置渐变
 
@@ -70,13 +79,17 @@ import {Puzzle1} from 'vuePuzzle'
 :gradient="{ type: 'radial', opacity: 0.9, point: { cx: '40%', cy: '60%', r: '50%', fx: '50%', fy: '50%' } }"
 >径向渐变</Puzzle1>
 ```
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/ea3690420529408da128e67a16d7abc3.png)
+
 
 ## 蒙版-裁切图片
 
 ```js
 // 注意：需要设置index或者mark唯一标识
  <Puzzle1 mark="2" :imgpath="require('@/assets/hw.png')" />
+ <Puzzle1 mark="2" imgpath="../../assets/hw.png" />
 ```
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/b65a4c4c0dec4aafae6614b62de54bfc.png)
 
 ## 列表（左侧和底部完全填充）
 
@@ -92,12 +105,16 @@ import {Puzzle1} from 'vuePuzzle'
 
 const hightlist1 = ref([...Array(36).keys()]); // 36组数据
 ```
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/ab3011e0448c428da6eaca595b3c2d43.png)
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/fda2707ed5d649268e22ef084d0a6f39.png)
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/899e89fe658e4c06830324f9e4464583.png)
 
 # slot
 
 ```js
 <Puzzle1>张三</Puzzle1>
 ```
+![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/4993414cf0c94f04908ad3ed9e9b7888.png)
 
 
 # props
@@ -120,7 +137,7 @@ const hightlist1 = ref([...Array(36).keys()]); // 36组数据
 | gradient  | 渐变配置 | gradientObj | - |
 
 
-### gradientObj
+## gradientObj
 
 | name | 描述 | 类型  | 默认值 | 备注|
 |-|---|--|--|--|
