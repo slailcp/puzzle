@@ -1,26 +1,25 @@
-# puzzle
+@[TOC](这里写目录标题)
 
-插件名字 puzzle
-
+# vuePuzzle
 # 文档地址
 
-[puzzle-文档地址](https://blog.csdn.net/sllailcp/article/details/139597472?spm=1001.2014.3001.5502)
+[vuePuzzle-文档地址](https://blog.csdn.net/sllailcp/article/details/139597472?spm=1001.2014.3001.5502)
 
 # 案例地址
 
-[puzzle-案例地址](https://slailcp.github.io/puzzle/puzzle.html)
+[vuePuzzle-案例地址](https://slailcp.github.io/vuePuzzle/index.html)
 
 # 源码地址
 
-[puzzle-源码地址](https://github.com/slailcp/puzzle)
+[vuePuzzle-源码地址](https://github.com/slailcp/puzzle)
 
 
 
 # npm 安装
-npm i --save puzzle
+npm i --save vuePuzzle
 
 # 引入
-import {Puzzle1} from 'puzzle'
+import {Puzzle1} from 'vuePuzzle'
 
 # 使用
 
@@ -101,7 +100,7 @@ const hightlist1 = ref([...Array(36).keys()]); // 36组数据
 ```
 
 
-## props
+# props
 
 | name | 描述 | 类型  | 默认值 |
 |-|---|--|--|
