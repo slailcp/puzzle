@@ -30,7 +30,7 @@ import 'vuePuzzle/vuePuzzle.css'
 ```
 ![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/direct/2aee8a9829ea4baeb735cc480ac80ea8.png)
 
-![在这里插入图片描述](//images.weserv.nl/?url=https://img-blog.csdnimg.cn/20201016100758392.gif#pic_center)  
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201016100758392.gif#pic_center)  
 
 
 ## 设置大小（默认100px）
