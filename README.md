@@ -38,10 +38,10 @@ import 'vue-puzzle/vuePuzzle.css';
 | name | 描述 | 类型  | 默认值 |
 |-|---|--|--|
 | bgColor  | 背景色 | String | "#F2F2F3" |
-| borderColor  | 背景色 | String | "#3E5185" |
-| borderWidth  | 背景色 | [Number, String] | 2 |
-| index  | 背景色 | [Number, String] | 0 |
-| shadowColor  | 背景色 | String | 无 |
+| borderColor  | 边框色 | String | "#3E5185" |
+| borderWidth  | 边框宽度 | [Number, String] | 2 |
+| index  | 索引 | [Number, String] | 0 |
+| shadowColor  | 阴影色 | String | 无 |
 | shadowRatio  | 阴影明显程度 | [Number, String] | 0.2 |
 | shadowSpread  | 阴影扩散程度 | [Number, String] | 125 |
 | colors  | 渐变色数组 | Array | [] |
@@ -51,6 +51,7 @@ import 'vue-puzzle/vuePuzzle.css';
 | mark  | 当前拼图的标识，防止内部使用特效重复 | String | 'one' |
 | imgpath  | 背景图片 | String | '' |
 | gradient  | 渐变配置 | gradientObj | - |
+
 
 
 ## gradientObj
