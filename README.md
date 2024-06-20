@@ -1,9 +1,11 @@
 
 @[TOC](vuePuzzle文档)
 
+
 # 文档地址
 
-[vuePuzzle-文档地址](https://blog.csdn.net/sllailcp/article/details/139597472?spm=1001.2014.3001.5502)
+[vuePuzzle-文档地址1](https://slailcp.github.io/vuePuzzle-document/index.html)
+[vuePuzzle-文档地址2](https://blog.csdn.net/sllailcp/article/details/139597472?spm=1001.2014.3001.5502)
 
 # 案例地址
 
@@ -11,7 +13,7 @@
 
 # 源码地址
 
-[vuePuzzle-源码地址](https://github.com/slailcp/puzzle)
+[vuePuzzle-源码地址](https://github.com/slailcp/puzzle/blob/main/puzzle1.vue)
 
 
 
@@ -29,6 +31,7 @@ import 'vuePuzzle/vuePuzzle.css'
 <Puzzle1 />
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/2aee8a9829ea4baeb735cc480ac80ea8.png)
+
 
 
 
